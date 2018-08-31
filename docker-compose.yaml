@@ -1,0 +1,7 @@
+version: "3"
+services:
+   id:
+     build: .
+     image: dalongrong/cuid-openresty
+     ports:
+     - "8080:80"
